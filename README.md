@@ -1,67 +1,80 @@
-## Status
+GroundMap
+
+Property Investigation & Land Management Platform
+
+土地調査・案件管理向けWebアプリケーション
+
+Status
 
 Personal Project (2026)
 
-Current Features:
-- Map-based land management
-- Registry information management
-- Investigation memo management
-- PDF export
-- Case management
+個人開発プロジェクト（2026）
 
-# GroundMap
+Features / 主な機能
+English
+Map-based property tracking
+Land information management
+Investigation workflow management
+Registry information management
+Investigation memo management
+Photo management
+PDF report generation
+Case management
+日本語
+地図上で候補地を管理
+土地情報の保存
+調査ステータス管理
+登記情報管理
+調査メモ管理
+写真管理
+PDF調査シート生成
+案件管理
+Tech Stack
+Node.js
+Express
+JavaScript
+React
+Leaflet
+PDF Generation
+Linux VPS
+PM2
+Purpose
+English
 
-土地調査・案件管理向けWebアプリケーションです。
+GroundMap is a property investigation and land management platform designed to simplify land research workflows.
 
-## Features
+Users can manage investigation targets on an interactive map, store registry information, attach field notes and photos, and generate PDF investigation reports.
 
-- 地図上で候補地を管理
-- 土地情報の保存
-- 調査ステータス管理
-- 写真管理
-- PDF調査シート生成
-- 登記情報管理
-- 調査メモ管理
+日本語
 
-## Tech Stack
+GroundMapは土地調査業務を効率化するために開発したWebアプリケーションです。
 
-- Node.js
-- Express
-- JavaScript
-- React
-- Leaflet
-- PDF Generation
-- Linux VPS
-- PM2
+地図上で候補地を管理し、登記情報・現地調査メモ・写真を保存しながら、調査シートをPDFとして出力できます。
 
-## Purpose
+Screenshots
+Main Screen
 
-不動産調査業務の効率化を目的として開発した個人プロジェクトです。
+Manage investigation targets on an interactive map and record registry information, field notes, and land-related data.
 
-地図上で候補地を管理し、現地調査メモや写真、土地情報をまとめて保存し、PDF調査シートとして出力できることを目指しています。
+地図上で調査地点を管理し、登記情報や現地調査内容を記録できます。
 
-# Screenshots
+Case Management
 
-## Main Screen
-
-土地調査地点を地図上で管理し、登記情報や現地調査内容を記録できます。
-
-![GroundMap Main](./main.png)
-
----
-
-## Case Management
+Search, edit, and manage investigation cases.
 
 保存済み案件の検索・編集・管理が可能です。
 
-![GroundMap Cases](./cases.png)
+PDF Export
 
----
+Generate investigation reports in PDF format from stored case information.
 
-## PDF Export
+登録した案件情報をPDF調査シートとして出力できます。
 
-登録した案件情報を調査シートとしてPDF出力できます。
+Author
 
-![GroundMap PDF](./pdf.png)# Screenshots
+Shinya Koike
+
+GitHub:
+https://github.com/Shinya266
 
 
